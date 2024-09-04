@@ -8,7 +8,6 @@ import Signup from './components/Signup'; // Import Signup component
 const App = () => {
   return (
     <Router>
-      <Homepage/>
       <Routes>
         <Route path="/" element={<Homepage />} />
       </Routes>
