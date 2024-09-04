@@ -13,7 +13,7 @@ const Signup = () => {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
-      <div className="relative flex items-center">
+      <div className="relative flex items-center right-32">
         {/* Left Image */}
         <img 
           src="/assets/accnt.png" 

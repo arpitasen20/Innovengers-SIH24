@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Shift = () => {
     return (
@@ -23,7 +24,9 @@ const Shift = () => {
                 <div className="flex justify-between items-center">
                     <h2 className="text-2xl font-bold text-center flex-grow">CHOOSE YOUR SHIFT</h2>
                     <div className="flex items-center space-x-10">
-                        <button className="bg-black text-white px-4 py-2 rounded hover:scale-110 transition-transform duration-300">DASHBOARD</button>
+                    <Link to="/Dashboard">
+                    <button className="bg-black text-white px-4 py-2 rounded hover:scale-110 transition-transform duration-300">DASHBOARD</button></Link>
+                        
                         <img 
                             src="/assets/p.png" 
                             alt="profile" 
