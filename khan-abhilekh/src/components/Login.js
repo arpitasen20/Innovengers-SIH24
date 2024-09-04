@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { EyeIcon, EyeOffIcon } from '@heroicons/react/outline';
+import { Link } from 'react-router-dom';
 
 
 
@@ -51,12 +52,16 @@ const Login = () => {
                 {showPassword ? <EyeOffIcon className="h-5 w-5 text-gray-500" /> : <EyeIcon className="h-5 w-5 text-gray-500" />}
               </div>
             </div>
-            <button 
+            <Link 
+            to="/Shift" >
+              <button 
               type="submit" 
               className="w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800 transition duration-300"
             >
               Login
             </button>
+            </Link>
+            
           </form>
         </div>
       </div>
