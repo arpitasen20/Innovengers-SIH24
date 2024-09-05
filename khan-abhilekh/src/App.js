@@ -10,6 +10,9 @@ import Logentry from './components/Home/Logentry';
 import Entryform from './components/Home/Entryform';
 import Logentries from './components/Home/Logentries';
 
+import ChatWidget from './components/ChatWidget';
+
+
 const App = () => {
   return (
     <Router>
