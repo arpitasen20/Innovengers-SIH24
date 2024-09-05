@@ -29,9 +29,7 @@ const Shift = () => {
                         />
                     </div>
                 </div>
-                <h2 className="text-2xl font-bold text-center flex-grow">CHOOSE YOUR SHIFT</h2>
-
-                
+                <h2 className="text-2xl font-bold text-center flex-grow">CHOOSE YOUR SHIFT</h2>                
             </div>
                 
 

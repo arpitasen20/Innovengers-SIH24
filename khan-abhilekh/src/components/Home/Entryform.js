@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Logentries from './Logentries';
 
 const EntryForm = () => {
   return (
@@ -135,9 +137,12 @@ const EntryForm = () => {
 
       {/* Buttons */}
       <div className="flex space-x-4">
-        <button className="border-2 border-black text-black font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition duration-300">
+      <Link to="/Logentries">
+      <button className="border-2 border-black text-black font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition duration-300">
           Submit
         </button>
+        </Link>
+        
         <button className="border-2 border-black text-black font-bold py-2 px-4 rounded hover:bg-black hover:text-white transition duration-300">
           Add More Entries
         </button>

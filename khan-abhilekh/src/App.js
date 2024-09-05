@@ -8,6 +8,7 @@ import Shift from './components/Home/Shift';
 import Dashboard from './components/Home/Dashboard';
 import Logentry from './components/Home/Logentry';
 import Entryform from './components/Home/Entryform';
+import Logentries from './components/Home/Logentries';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Logentry" element={<Logentry />} />
         <Route path="/Entryform" element={<Entryform />} />
+        <Route path="/Logentries" element={<Logentries />} />
       </Routes>
     </Router>
   );
